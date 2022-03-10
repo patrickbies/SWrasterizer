@@ -55,17 +55,6 @@ The `addObject` function used like so:
 ```addObject(id, loaded_index, scale, Vector3 position, Vector3 angles, Vector4 color);```
 This function adds an Object to be rendered.
 
-#### In Depth:
-In order to apply rotations and calculate lighting, I had to learn linear algebra. This was complicated
-but eventually led me to where I am now. I used rotation matricies for the rotation and lighting calculations
-found online for the specifics. The obj file parsing was helped through a couple tutorials that taught me
-how to read and write to files in c++.
-
-##### FYI:
-I began this project with no prior C++ experience so the code is quite messy.
-I learnt how to create a window and draw graphics through a youtube tutorial from
-Dan Zaidan.
-
 ##### Controls:
 
 WASD SPACE and SHIFT control camera movement.
