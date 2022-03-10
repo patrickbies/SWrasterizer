@@ -1,7 +1,6 @@
 # SWrasterizer
 Software Rasterization project for online CS50 course
 
-#### Video Demo:  https://youtu.be/gnM1rS3B5dk
 #### Description:
 This project is a software rasterizer written in C++.
 It contains vertex interpolation, flat shading, smooth shading, normal mapping, albedo texture mapping,
